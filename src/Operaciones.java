@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Operaciones {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
 		int operaciones=input.nextInt();
 		input.nextLine();
@@ -16,7 +15,7 @@ public class Operaciones {
 		str[i]=data;
 		}
 		for(int i=0; i<operaciones;i++) {
-			System.out.printf("%s = %.1f",str[i],prnt[i]);
+			System.out.printf("%s = %.1f \n",str[i],prnt[i]);
 		}
 	}
 	/*
@@ -36,6 +35,12 @@ public class Operaciones {
 				suma -= num[pos];
 				break;
 			case "*":
+				suma *= num[pos];
+				break;
+			case "x":
+				suma *= num[pos];
+				break;
+			case "X":
 				suma *= num[pos];
 				break;
 			case "/":
