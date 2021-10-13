@@ -18,6 +18,7 @@ public class Operaciones {
 			System.out.printf("%s = %.1f \n",str[i],prnt[i]);
 		}
 	}
+	
 	/*
 	 * Este metodo recibe dos arreglos, uno con los operandos y el otro con los valores
 	 * que va a operar.
